@@ -1,0 +1,19 @@
+html {
+    background-color: cornflowerblue;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    margin: 0px auto;
+
+}
+
+.inner {
+    background-color: rgb(209, 164, 164);
+    width: 50%;
+
+}
