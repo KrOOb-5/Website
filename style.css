@@ -3,11 +3,7 @@ body, html{
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-}
-
-#logo{
-    width: 170px;
-    height: 40px;
+    
 }
 
 h1{
@@ -15,38 +11,63 @@ h1{
     font-weight: 500px;
 }
 
-nav{
+
+nav {
    padding: 20px;
-   background-color: black;
+   height: 55px;
+   position: fixed;
    width: 100%;
-   text-align: center;
    display: flex;
    justify-content: space-around;
-   gap: 270px;
-   position: fixed;
+   gap: 290px; 
+   align-items: center;
+   background-color: black;
+   z-index: 99;
+}
+
+#logo{
+    width: 150px;
+    height: 30px;
+    background: url("images/logo2.webp") no-repeat;
+}
+
+#logo:hover{
+    width: 150px;
+    height: 30px;
+    background: url("images/logo.webp") no-repeat;
+    cursor: pointer;
+}
+
+button {    
+    border: 2px solid white;
+    font-weight: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 140px;
+    height: 38px;
+    color: white;
+    background-color: transparent;
+    margin: 10px;
+    align-self: center;
 }
 
 
-nav::after{
-
-    background-color: rgb(187, 51, 51);
-
+a {
+    text-transform: uppercase;
 }
 
-button{
-
-    
-}
-
-
-p:first-of-type{
+.subtitle {
     text-transform: capitalize;
     letter-spacing: 2px;
     word-spacing: 4px;
-    font-size: 30px;
+    font-size: 40px;
+    
 }
-
-
+.text{
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
 
 
 .inner {
@@ -57,10 +78,13 @@ p:first-of-type{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/hero-bg.webp");
     height: 100%;
     min-width: 100%;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    
+    
+    
 }
 
 .hero-text {
@@ -69,7 +93,15 @@ p:first-of-type{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 750px;
     transform: translate(-50%, -50%);
     color: white;
 }
 
+article > p {
+    font-size: 20px;
+}
+
+.section{
+    position: absolute;
+}
