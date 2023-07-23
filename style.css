@@ -14,12 +14,12 @@ h1{
 
 nav {
    padding: 20px;
-   height: 55px;
+   
    position: fixed;
    width: 100%;
    display: flex;
    justify-content: space-around;
-   gap: 290px; 
+   gap: 550px; 
    align-items: center;
    background-color: black;
    z-index: 99;
