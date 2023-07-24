@@ -1,44 +1,57 @@
-body, html{
+body,
+html {
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    
+    position: relative;
 }
 
-h1{
-    font-size:50px;
+h1 {
+    font-size: 50px;
     font-weight: 500px;
 }
 
-
-nav {
-   padding: 20px;
-   
-   position: fixed;
-   width: 100%;
-   display: flex;
-   justify-content: space-around;
-   gap: 550px; 
-   align-items: center;
-   background-color: black;
-   z-index: 99;
+.header {
+    width: 100%;
+    
 }
 
-#logo{
+.nav {
+    padding: 20px;
+    
+    width: 100%;
+    margin: 0 auto; 
+    
+    position: fixed;
+    
+    z-index: 99;
+    
+    
+}
+
+.inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+#logo {
     width: 150px;
     height: 30px;
     background: url("images/logo2.webp") no-repeat;
 }
 
-#logo:hover{
+#logo:hover {
     width: 150px;
     height: 30px;
     background: url("images/logo.webp") no-repeat;
     cursor: pointer;
 }
 
-button {    
+button {
     border: 2px solid white;
     font-weight: 100px;
     border-radius: 20px;
@@ -47,8 +60,7 @@ button {
     height: 38px;
     color: white;
     background-color: transparent;
-    margin: 10px;
-    align-self: center;
+    
 }
 
 
@@ -61,9 +73,10 @@ a {
     letter-spacing: 2px;
     word-spacing: 4px;
     font-size: 40px;
-    
+
 }
-.text{
+
+.text {
     letter-spacing: 0.5px;
     word-spacing: 2px;
     font-size: 20px;
@@ -76,15 +89,13 @@ a {
 
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/hero-bg.webp");
-    height: 100%;
+    min-height: 100%;
     min-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-    
+    position: relative;
 }
 
 .hero-text {
@@ -97,13 +108,13 @@ a {
     color: white;
 }
 
-article > p {
+article>p {
     font-size: 20px;
-    
+
 }
 
 .section {
-    
+
     width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -111,22 +122,25 @@ article > p {
 
 .wrapper {
     display: flex;
-    width:80%;
-    margin:0px auto;
+    width: 75%;
+    margin: 0px auto;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
+    justify-content: space-evenly;
+    gap: 25px;
+
 }
 
 .img {
-    
     text-align: center;
     box-shadow: 0 9px 38px 0 rgba(174, 174, 174, 0.24);
     font-size: 15px;
     padding: 10px;
-    margin: 15px;
     color: rgb(56, 56, 56);
     font-weight: lighter;
     background-color: white;
+
+}
+
+img {
+    width: 350px;
 }
