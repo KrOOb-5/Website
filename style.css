@@ -13,6 +13,11 @@ h1 {
     font-weight: 500px;
 }
 
+
+h4 {
+    margin: 2px;
+}
+
 /* Header and hero code */
 
 .header {
@@ -129,11 +134,49 @@ img {
 
 /* Feature scetion */
 
-.icon{
-    width: 36px;
-    height: 35px;
-}
-
 .feature{
     background-color: #f6f6f6;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    
 }
+
+.featurewrap{
+    
+    width: 75%;
+    margin: 120px auto;
+    position: relative;
+}
+
+.featurewrap > h1 {
+    margin-bottom: 100px;
+    font-weight: lighter;
+    color: rgb(76, 79, 82);
+}
+
+.featuredetails {
+    display: flex;
+    margin-top: 50px;
+}
+
+.grouprow{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    gap: 10px;
+}
+
+.grouptext {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    padding-left: 15px;
+}
+
