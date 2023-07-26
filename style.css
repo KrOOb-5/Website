@@ -126,6 +126,18 @@ button {
     background-color: white;
 
 }
+.homeone{
+    background: no-repeat url("images/home1.webp");
+    height: 440px;
+    width: 350px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.homeone:hover{
+    
+    background-image: linear-gradient( rgb(254, 197, 0.632),  rgba(254, 198, 57, 0.632)),url("images/home1.webp");
+    box-shadow: 0 9px 38px 0 rgba(174, 174, 174, 0.24);
+}
 
 img {
     width: 350px;
@@ -213,5 +225,6 @@ img {
     color: white;
     font-size: 30px;
     font-weight: lighter;
+    letter-spacing: 2.5px;
     font-family: 'Montserrat', sans-serif;
 }
