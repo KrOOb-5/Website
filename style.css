@@ -33,15 +33,29 @@ h4 {
 
 .nav {
     padding: 20px;
-    
     width: 100%;
-    margin: 0 auto; 
-    
+    margin: 0 auto;  
     position: fixed;
-    
-    z-index: 99;
-    
-    
+    z-index: 99; 
+}
+
+.scrolled {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;  
+    position: fixed;
+    z-index: 99; 
+    animation-duration: 1s;
+    animation-name: slideDown;
+}
+
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
 }
 
 .inside{
@@ -61,17 +75,23 @@ h4 {
 }
 
 
-button {
+button, .buttonnav{
     border: 2px solid white;
     font-weight: 100px;
     border-radius: 20px;
     padding: 10px;
-    width: 140px;
+    width: 160px;
     height: 38px;
     color: white;
     background-color: transparent;
     
 }
+
+.buttonnav {
+    font-weight: 500px;
+}
+
+
 
 .hero-text {
     text-align: center;
@@ -120,7 +140,7 @@ button {
     text-align: center;
     box-shadow: 0 9px 38px 0 rgba(174, 174, 174, 0.24);
     font-size: 15px;
-    padding: 10px;
+    
     color: rgb(56, 56, 56);
     font-weight: lighter;
     background-color: white;
