@@ -84,13 +84,12 @@ button, .buttonnav{
     height: 38px;
     color: white;
     background-color: transparent;
-    
+    text-decoration: none;    
 }
 
 .buttonnav {
     font-weight: 500px;
 }
-
 
 
 .hero-text {
