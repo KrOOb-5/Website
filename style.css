@@ -1,5 +1,12 @@
 /* General code */
 
+:root {
+   /* --name: value; */
+   --primary-clr: rgba(254, 195, 1, 1);
+}
+
+
+
 body,
 html {
     margin: 0 auto;
