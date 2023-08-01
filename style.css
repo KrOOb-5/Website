@@ -178,6 +178,7 @@ button, .buttonnav{
 }
 
 .homeone::before{
+    background-color: red;
     content: '';
     position: absolute;
     top: 0;
@@ -185,6 +186,7 @@ button, .buttonnav{
     left: 0;
     right: 0;
     opacity: 0;
+    height: 440px;
     transition: transform ease-out 250ms, opacity ease 300ms;
     background: linear-gradient( rgba(254, 195, 1, 0.711),  rgba(254, 198, 57, 0.832));
 }
