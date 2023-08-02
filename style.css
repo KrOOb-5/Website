@@ -104,7 +104,7 @@ button, .buttonnav{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 750px;
+    margin: 0;
     transform: translate(-50%, -50%);
     color: white;
 }
